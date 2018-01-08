@@ -1,0 +1,63 @@
+<style>
+    #formBorder {
+        border: 20px solid;
+        border-color: #c6c6c6;
+        padding: 20px;
+        padding-top: 45px;
+        width: 800px;
+        margin: 20px;
+    }
+    #formLogo {
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        top: 20px;
+        left: 70px;
+        background-image: url(data:image/png;base64,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);
+    }
+    #formTitle {
+        margin-left: 145px;
+        font-weight: bold;
+    }
+</style>
+<div style="position:relative;">
+    <div id="formLogo"></div>
+    <div style="min-height:30px;"></div>
+    <div id="formBorder">
+        <div class="ms-Grid">
+            <div class="ms-Grid-row" style="max-height:20px;">
+                <div class="ms-u-md12 ms-u-sm12 ms-Grid-col ms-u-lg12" style="">
+                    <h1 id="formTitle">FORM TITLE</h1>
+            </div>
+            </div>
+            <div class="ms-Grid-row">
+                <div class="ms-u-lg6 ms-u-md6 ms-u-sm6 ms-Grid-col">
+                    <component-textbox id="1515379603953" params="'Name':'','InternalName':'Title','Title':'Task Name','Description':'','MaxLength':255,'DefaultValue':null,'FieldTypeKind':2,'ReadOnlyField':false,'Required':true"
+                    class=""></component-textbox>
+                    <component-filebox id="1515379603954" params="'Filter':'','InternalName':'Attachments','Title':'Attachments','AllowMultipleValues':false,'Description':'','ReadOnlyField':false,'FieldTypeKind':19,'Required':false"
+                    class=""></component-filebox>
+                    <component-numberbox id="1515379603955" params="'InternalName':'PercentComplete','Title':'% Complete','Description':'','MaximumValue':1,'MinimumValue':0,'DefaultValue':'0','ReadOnlyField':false,'Percentage':true,'FieldTypeKind':9,'Required':false"
+                    class=""></component-numberbox>
+                </div>
+                <div class="ms-u-lg6 ms-u-md6 ms-u-sm6 ms-Grid-col ui-sortable">
+                    <component-datetimebox id="1515379603957" params="'InternalName':'DueDate','Title':'Due Date','Description':'','DefaultValue':null,'ReadOnlyField':false,'DisplayFormat':0,'FriendlyDisplayFormat':2,'FieldTypeKind':4,'Required':false"
+                    class=""></component-datetimebox>
+                    <component-datetimebox id="1515379603960" params="'InternalName':'StartDate','Title':'Start Date','Description':'','DefaultValue':null,'ReadOnlyField':false,'DisplayFormat':0,'FriendlyDisplayFormat':2,'FieldTypeKind':4,'Required':false"
+                    class=""></component-datetimebox>
+                    <component-personabox id="1515379603956" params="'InternalName':'AssignedTo','Title':'Assigned To','AllowMultipleValues':true,'Description':'','DefaultValue':null,'LookupField':'ImnName','LookupList':'{5a568050-3357-4f48-9022-f87164c35d19}','LookupWebId':'f58338bb-6406-4eb5-9327-e0095de4494c','Presence':true,'SelectionGroup':0,'SelectionMode':1,'ReadOnlyField':false,'FieldTypeKind':20,'Color':'ms-Persona-initials--green','Required':false"
+                    class=""></component-personabox>
+                </div>
+            </div>
+            <div class="ms-Grid-row ui-sortable">
+                <div class="ms-u-lg12 ms-u-md12 ms-u-sm12 ms-Grid-col ui-sortable">
+                    <br>
+                    <br>
+                    <hr>
+                    <br> 
+                    <component-messagebox id="1515379603958" params="'message':'COMPLETED SUCCESSFULLY. MY FORMS VIEW WILL REFLECT CHANGES WITH 5 MIN DELAY'" class=""></component-messagebox>
+                    <component-buttons id="1515379603959" params="'visible':true,'closeonclick':false,'save':false,'submit':true,'cancel':false,'deletesubmitted':false,'moderation':'Draft','uniqueid':'Counter'" class=""></component-buttons>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
